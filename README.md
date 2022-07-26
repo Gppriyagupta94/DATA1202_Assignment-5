@@ -3,7 +3,7 @@
 Clustering 
 **Description of the Project** 
 We have collected data of cancer patients and using the Elbow and Silhouette methods of clustering we will optimize our K -means model to segment homogeneous symptoms found in one set of patients through all variables and differentiate them from heterogeneous symptoms found in other patients in order to further identify which patients can be treated using the similar medical treatment and which patients must be treated differently.
-**Prerequisites**: 
+**Prerequisites and Installing**: 
 Python (Anaconda) Install Procedure
 Python Program Install
 1) Go to the Anaconda website for downloads - https://www.anaconda.com/products/individual (the
@@ -25,3 +25,10 @@ Open the Anaconda Prompt (start menu under Anaconda3(64-bit))
 7) Close the Anaconda Prompt/Terminal App
 Final Step
 Create a folder under Documents
+**Running the Test**: 
+To run the test the first step is to load the libraries:
+1) Import pandas as pd
+2) Import numpy as np
+3) Import matplotlib as plt
+Then we have to load the dataset 
+leuanalysisNewdata = pd.read_csv('./leuanalysisNew.csv')
