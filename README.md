@@ -58,5 +58,9 @@ Now we will create Kmeans with 2 clusters to see how the data points will be pro
 2) To plot the clusters in a scatter plot graph we will use plt.scatter
 3) We will give two different colors to both clusters and a different color for the centroids in both the cluster
 This will project the scatter plot graph of the dataset with two homogenous clusters
-Authors
+**Authors**
+Professor Ade Oridate - Intial Work
+**Acknowledgements**
+The work is inspired by course 1200 week 9 Kmeans Model class
+
 
